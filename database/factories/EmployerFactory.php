@@ -17,7 +17,7 @@ class EmployerFactory extends Factory
     public function definition(): array
     {
         return [
-            fake()->company()
+            "name" => fake()->company()
         ];
     }
 }
