@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use App\Models\Employer;
 
 /**
@@ -15,6 +16,8 @@ class JobFactory extends Factory
      *
      * @return array<string, mixed>
      */
+    use HasFactory;
+
     public function definition(): array
     {
         return [

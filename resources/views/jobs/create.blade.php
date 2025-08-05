@@ -34,13 +34,6 @@
             </div>
           </div>
         </div>
-        {{-- @if($errors->any())
-        <ul class="mt-2">
-            @foreach($errors->all() as $error)
-                <li class="text-red-800 bold italic">{{ $error }}</li>
-            @endforeach
-        </ul>
-      @endif --}}
       </div>
     <div class="mt-6 flex items-center justify-end gap-x-6">
       <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button>
